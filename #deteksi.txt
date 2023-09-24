@@ -1,0 +1,14 @@
+--webcam 
+--webcam-addr
+
+#YOLOv6l epoch 150
+python tools/infer.py --weights --yaml dataset/dataset.yaml --save-dir --save-txt --source img.jpg --device 0 --project runs/inference/L150
+
+#YOLOv6m epoch 150
+python tools/infer.py --weights output_dir/name/weights/best_ckpt.pt --source img.jpg --device 0
+
+#YOLOv6n epoch 150
+python tools/infer.py --weights output_dir/name/weights/best_ckpt.pt --source img.jpg --device 0
+
+#YOLOv6s epoch 150
+python tools/infer.py --weights output_dir/name/weights/best_ckpt.pt --source img.jpg --device 0
