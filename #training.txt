@@ -1,3 +1,9 @@
+download weight
+!wget -P /KukuDM/weights https://github.com/BurhanNR97/KukuDM/releases/download/yolov6/yolov6l.pt
+!wget -P /KukuDM/weights https://github.com/BurhanNR97/KukuDM/releases/download/yolov6/yolov6m.pt
+!wget -P /KukuDM/weights https://github.com/BurhanNR97/KukuDM/releases/download/yolov6/yolov6n.pt
+!wget -P /KukuDM/weights https://github.com/BurhanNR97/KukuDM/releases/download/yolov6/yolov6s.pt
+
 #YOLOv6l epoch 150
 python tools/train.py --img-size 640 --epochs 150 --batch 32 --name 'L150' --conf configs/yolov6l_finetune.py --data dataset/dataset.yaml --fuse_ab --device 0
 
