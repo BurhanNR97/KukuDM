@@ -1,0 +1,47 @@
+#YOLOv6l epoch 150
+python tools/train.py --img-size 640 --epochs 150 --batch 32 --name 'L150' --conf configs/yolov6l_finetune.py --data dataset/dataset.yaml --fuse_ab --device 0
+
+#YOLOv6l epoch 200
+python tools/train.py --img-size 640 --epochs 200 --batch 32 --name 'L200' --conf configs/yolov6l_finetune.py --data dataset/dataset.yaml --fuse_ab --device 0
+
+#YOLOv6l epoch 250
+python tools/train.py --img-size 640 --epochs 250 --batch 32 --name 'L250' --conf configs/yolov6l_finetune.py --data dataset/dataset.yaml --fuse_ab --device 0
+
+#YOLOv6l epoch 300
+python tools/train.py --img-size 640 --epochs 300 --batch 32 --name 'L300' --conf configs/yolov6l_finetune.py --data dataset/dataset.yaml --fuse_ab --device 0
+
+#YOLOv6m epoch 150
+python tools/train.py --img-size 640 --epochs 150 --batch 32 --name 'M150' --conf configs/yolov6m_finetune.py --data dataset/dataset.yaml --fuse_ab --device 0
+
+#YOLOv6m epoch 200
+python tools/train.py --img-size 640 --epochs 200 --batch 32 --name 'M200' --conf configs/yolov6m_finetune.py --data dataset/dataset.yaml --fuse_ab --device 0
+
+#YOLOv6m epoch 250
+python tools/train.py --img-size 640 --epochs 250 --batch 32 --name 'M250' --conf configs/yolov6m_finetune.py --data dataset/dataset.yaml --fuse_ab --device 0
+
+#YOLOv6m epoch 300
+python tools/train.py --img-size 640 --epochs 300 --batch 32 --name 'M300' --conf configs/yolov6m_finetune.py --data dataset/dataset.yaml --fuse_ab --device 0
+
+#YOLOv6n epoch 150
+python tools/train.py --img-size 640 --epochs 150 --batch 32 --name 'N150' --conf configs/yolov6n_finetune.py --data dataset/dataset.yaml --fuse_ab --device 0
+
+#YOLOv6n epoch 200
+python tools/train.py --img-size 640 --epochs 200 --batch 32 --name 'N200' --conf configs/yolov6n_finetune.py --data dataset/dataset.yaml --fuse_ab --device 0
+
+#YOLOv6n epoch 250
+python tools/train.py --img-size 640 --epochs 250 --batch 32 --name 'N250' --conf configs/yolov6n_finetune.py --data dataset/dataset.yaml --fuse_ab --device 0
+
+#YOLOv6n epoch 300
+python tools/train.py --img-size 640 --epochs 300 --batch 32 --name 'N300' --conf configs/yolov6n_finetune.py --data dataset/dataset.yaml --fuse_ab --device 0
+
+#YOLOv6s epoch 150
+python tools/train.py --img-size 640 --epochs 150 --batch 32 --name 'S150' --conf configs/yolov6s_finetune.py --data dataset/dataset.yaml --fuse_ab --device 0
+
+#YOLOv6s epoch 200
+python tools/train.py --img-size 640 --epochs 200 --batch 32 --name 'S200' --conf configs/yolov6s_finetune.py --data dataset/dataset.yaml --fuse_ab --device 0
+
+#YOLOv6s epoch 250
+python tools/train.py --img-size 640 --epochs 250 --batch 32 --name 'S250' --conf configs/yolov6s_finetune.py --data dataset/dataset.yaml --fuse_ab --device 0
+
+#YOLOv6s epoch 300
+python tools/train.py --img-size 640 --epochs 300 --batch 32 --name 'S300' --conf configs/yolov6s_finetune.py --data dataset/dataset.yaml --fuse_ab --device 0
