@@ -1,10 +1,3 @@
-<p align="center">
-  <img src="assets/banner-YOLO.png" align="middle" width = "1000" />
-</p>
-
-English | [简体中文](README_cn.md)
-
-
 ## YOLOv6-Face
 
 Implementation based on [YOLOv6 v3.0 code](https://github.com/meituan/YOLOv6/tree/main).
